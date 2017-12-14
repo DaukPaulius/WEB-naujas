@@ -1,0 +1,11 @@
+1. OK.
+2. Vietoj <i> galima naudoti <em> kai kuriose vietose.
+3. OK. Kode li elementai ðiek tiek deðinaiu turi bûti pastumti po ol elementu.
+4. Ne visai toks vaizdas. Tik vienas paveikslëlis yra ádëtas á <figure> elementà.
+5. Dedame tikrus mygtukus <input type="button".. ir laukà <input type="text"...
+6. OK.
+7. OK. TIk galima buvo sudëti á vienà projekto katalogà o toliau jau gilyn.
+8. OK.
+9. OK. Kodo stilius... source vertikaliai viename lygyje turi bûti.
+10. OK.
+11. Kiekvienà skaièiø dedame á atskirà span elementà. Tam kad galëtume kiekvienam span priskirti unikalø id ir vëliau tai unikaliai dienai pridëti pvz. event su javascript. Ir kodo stiliø reiktø pataisyti
