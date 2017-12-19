@@ -1,0 +1,42 @@
+.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+  margin: auto;
+  width: 70%;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.[class^="images"]{
+  float: left;
+}
+.upperLine{
+  border: 1px solid black;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: Verdana;
+    color: black;
+    font-style: italic;
+}
+p{
+  font-family: Arial;
+}

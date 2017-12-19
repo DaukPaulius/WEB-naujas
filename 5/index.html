@@ -3,28 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title>Skaičiuotuvas</title>
+    <style>
+
+
+    table{
+      border: 1px solid black;
+      width: 160.8px;
+    }
+    td{
+      width: 30px;
+      height: 30px;
+    }
+    input{
+      width: 30px;
+      height: 30px;
+      align-content: center;
+    }
+    .boxas{
+      width: 158.8px;
+      border: 1px solid black;
+    }
+
+    </style>
   </head>
   <body>
-<table border=51">
-<tr>
-  <th></th><th></th><th></th> <th>0</th>
-</tr>
-<tr>
-  <td>%</td><td>C</td><td>B</td><td>/</td>
-</tr>
-<tr>
-  <td>7</td> <td>8</td> <td>9</td> <td>*</td>
-</tr>
-<tr>
-  <td>4</td> <td>5</td> <td>6</td> <td>-</td>
-</tr>
-<tr>
-  <td>1</td><td>2</td><td>3</td><td>+</td>
+<table>
+  <tr>
+    <input class="boxas" type="text" name="rezultatas" value="0">
+  </tr>
 
-</tr>
-<tr>
-    <td></td><td>0</td><td>.</td><td>=</td>
-</tr>
+  <tr>
+    <td><input type="button" name="procentai" value="%"></td>
+    <td> <input type="button" name="Isvalymas" value="C"> </td>
+    <td> <input type="button" name="dalyba" value="/"> </td>
+    <td> <input type="button" name="daugyba" value="X"> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" name="septyni" value="7"></td>
+    <td> <input type="button" name="astuoni" value="8"></td>
+    <td> <input type="button" name="devyni" value="9"></td>
+    <td> <input type="button" name="atimtis" value="-"> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" name="keturi" value="4"></td>
+    <td> <input type="button" name="penki" value="5"></td>
+    <td> <input type="button" name="sesi" value="6"></td>
+    <td> <input type="button" name="sudetis" value="+"></td>
+  </tr>
+  <tr>
+    <td> <input type="button" name="vienas" value="1"></td>
+    <td> <input type="button" name="du" value="2"></td>
+    <td> <input type="button" name="trys" value="3"></td>
+    <td> <input type="button" name="taskas" value="."></td>
+  </tr>
+  <tr>
+      <td> <input type="button" name="nulis" value="0"> </td>
+      <td> <input type="button" name="lygu" value="="> </td>
+  </tr>
+
 </table>
+
   </body>
 </html>
